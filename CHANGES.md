@@ -1,3 +1,21 @@
+## v0.1.2
+
+Conduit 0.1.2 is focused on usability and debuggability.
+
+* Conduit CLI
+  * New `conduit check` command reports on the health of your Conduit installation.
+  * New `conduit completion` command provides shell completion.
+* Dashboard
+  * Added per-path metrics to the deployment detail pages.
+  * Added scatterplot to deployments page.
+  * Added animations to line graphs indicating server activity.
+  * More descriptive CSS variable names. (thanks @natemurthy!)
+  * Surface all server errors.
+  * Removed iframe version check and JS errors.
+* Fixes
+  * Fixed Prometheus config when using RBAC. (thanks @FaKod!)
+  * Fixed `tap` failure when pods do not belong to a deployment. (thanks @FaKod!)
+
 ## v0.1.1
 
 Conduit 0.1.1 is focused on making it easier to get started with Conduit.
